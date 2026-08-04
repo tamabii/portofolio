@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hernando — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg-dots"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="logo">Hernando<em>.dev</em></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Say hi</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div>
+      <div class="eyebrow">Open to work</div>
+      <h1 class="hero-name">Hi, I'm Hernando<span class="accent">.</span></h1>
+      <div class="hero-role">&lt;/&gt; Software Engineer</div>
+      <p class="hero-desc">
+        I build web systems end-to-end — from database design to the interface
+        people actually click. Comfortable across CSS, JavaScript, Python, PHP,
+        MySQL and Git, and just as comfortable working solo or inside a team.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See my work →</a>
+        <a href="#contact" class="btn btn-ghost">Contact me</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="tilt-card" id="tiltCard">
+        <div class="glow"></div>
+        <div>
+          <div class="tilt-tag">// currently building</div>
+          <div class="tilt-code" style="margin-top:14px;">
+            <span class="kw">const</span> stack = [<br>
+            &nbsp;&nbsp;<span class="fn">"CSS"</span>, <span class="fn">"JavaScript"</span>,<br>
+            &nbsp;&nbsp;<span class="fn">"Python"</span>, <span class="fn">"PHP"</span>,<br>
+            &nbsp;&nbsp;<span class="fn">"MySQL"</span>, <span class="fn">"Git"</span><br>
+            ];
+          </div>
+        </div>
+        <div class="tilt-stack">
+          <span>Web Dev</span><span>IT Support</span><span>Data Handling</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="wrap">
+    <div class="section-head reveal">
+      <div class="section-num">01 — About</div>
+      <h2 class="section-title">Who I am</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm <strong>Hernando</strong>, a software engineer with a background in
+        Information Systems. My day-to-day toolkit is <strong>CSS, JavaScript, Python,
+        PHP, MySQL, and Git</strong> — enough to take a project from database schema
+        to a working interface.</p>
+        <p>I've worked both independently and inside teams, and I'm comfortable
+        handling the less glamorous side of engineering too: processing and
+        submitting data through MySQL, keeping systems running, and supporting
+        the people who rely on them.</p>
+        <p>Right now I'm expanding into AI-agent tooling and automation projects
+        alongside my core web development work.</p>
+      </div>
+      <div class="reveal">
+        <div class="skill-cloud">
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">PHP</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="internship" class="wrap">
+    <div class="section-head reveal">
+      <div class="section-num">02 — Experience</div>
+      <h2 class="section-title">Internship</h2>
+    </div>
+    <div class="timeline-card reveal">
+      <div class="ts-top">
+        <div>
+          <div class="ts-role">IT Support Intern</div>
+          <div class="ts-company">Badan Pendapatan Daerah (BAPENDA) — Pemerintah Republik Indonesia</div>
+        </div>
+        <div class="ts-period">Internship Period</div>
+      </div>
+      <ul class="ts-list">
+        <li>Provided IT support for staff systems and daily technical issues within a government revenue office.</li>
+        <li>Handled data entry, processing, and submission using MySQL-backed systems.</li>
+        <li>Assisted with basic maintenance of internal applications and hardware/software troubleshooting.</li>
+        <li>Worked with Microsoft Office/Excel for reporting and documentation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="wrap">
+    <div class="section-head reveal">
+      <div class="section-num">03 — Work</div>
+      <h2 class="section-title">Selected Projects</h2>
+    </div>
+
+    <div class="carousel-stage reveal" id="carouselStage">
+      <div class="carousel-ring" id="carouselRing">
+
+        <div class="proj-card">
+          <div class="proj-tag">UI/UX Design</div>
+          <div class="proj-title">AntrianPajak</div>
+          <p class="proj-desc">A queue management system design for tax office services — designed end-to-end in Figma, covering the citizen-facing queue flow and the staff-side dashboard.</p>
+          <div class="proj-stack"><span>Figma</span><span>UI/UX</span></div>
+          <a href="https://www.figma.com/design/R0G2nMnKgKSjYnf4z9WI0t/AntrianPajak?t=7MWHJ5uDYOLWgKbB-0" target="_blank" class="proj-link">View on Figma →</a>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-tag">AI Agents · Web3</div>
+          <div class="proj-title">LavienBlu</div>
+          <p class="proj-desc">An AI agent automation project built on the OpenClaw framework — includes autonomous agent tooling and crypto-mining automation modules.</p>
+          <div class="proj-stack"><span>Python</span><span>AI Agents</span><span>Automation</span></div>
+          <a href="https://github.com/tamabii/lavienblu" target="_blank" class="proj-link">View on GitHub →</a>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-tag">More</div>
+          <div class="proj-title">More on GitHub</div>
+          <p class="proj-desc">Check out the rest of my repositories and experiments — new projects added as I build them.</p>
+          <div class="proj-stack"><span>GitHub</span></div>
+          <a href="https://github.com/tamabii" target="_blank" class="proj-link">Visit profile →</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carousel-controls reveal">
+      <button class="carousel-btn" id="prevBtn" aria-label="Previous project">←</button>
+      <div class="carousel-dots" id="carouselDots"></div>
+      <button class="carousel-btn" id="nextBtn" aria-label="Next project">→</button>
+    </div>
+    <div class="drag-hint reveal">← drag to rotate →</div>
+  </section>
+
+  <section id="contact" class="wrap">
+    <div class="section-head reveal">
+      <div class="section-num">04 — Contact</div>
+      <h2 class="section-title">Let's build something</h2>
+    </div>
+    <div class="contact-grid reveal">
+      <a href="mailto:hernando@email.com" class="contact-card">
+        <div class="contact-icon">✉</div>
+        <div><div class="contact-label">Email</div><div class="contact-value">hernando@email.com</div></div>
+      </a>
+      <a href="https://linkedin.com/in/hernando" target="_blank" class="contact-card">
+        <div class="contact-icon">in</div>
+        <div><div class="contact-label">LinkedIn</div><div class="contact-value">/in/hernando</div></div>
+      </a>
+      <a href="https://github.com/tamabii" target="_blank" class="contact-card">
+        <div class="contact-icon">⌥</div>
+        <div><div class="contact-label">GitHub</div><div class="contact-value">@tamabii</div></div>
+      </a>
+      <a href="https://instagram.com/hernando" target="_blank" class="contact-card">
+        <div class="contact-icon">◎</div>
+        <div><div class="contact-label">Instagram</div><div class="contact-value">@hernando</div></div>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div>© 2026 Hernando. Built with code &amp; coffee.</div>
+  <div>Back to top ↑</div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
