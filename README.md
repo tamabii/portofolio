@@ -1,26 +1,42 @@
-# Portfolio — Hernando
+<div align="center">
 
-Struktur project:
-```
-portfolio-project/
-├── index.html      # Struktur halaman
-├── css/
-│   └── style.css   # Semua styling & tema
-├── js/
-│   └── script.js   # Interaksi: 3D tilt hero, carousel 3D drag, nav, scroll reveal
-└── README.md
-```
+# Hernando — Portfolio Website
 
-## Cara pakai di VSCode
-1. Extract folder ini.
-2. Buka folder-nya di VSCode (`File > Open Folder`).
-3. Install extension **Live Server** (kalau belum ada), lalu klik kanan `index.html` → **Open with Live Server**.
-   Atau cukup buka `index.html` langsung di browser (double click).
+A responsive personal portfolio website featuring a draggable 3D project
+carousel and interactive tilt effects.
 
-## Yang masih perlu diedit (isi placeholder)
-Buka `index.html`, cari dan ganti:
-- Periode magang (bagian `<div class="ts-period">Internship Period</div>`)
-- Email, LinkedIn, Instagram di bagian `#contact` (masih placeholder)
-- Tambah/ubah project di bagian `#projects` kalau ada project lain
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=for-the-badge)](#license)
 
-Warna, font, dan efek 3D bisa diatur di `css/style.css` (variabel warna ada di paling atas, bagian `:root`).
+</div>
+
+---
+
+## 📖 About
+
+This repository contains the source code for my personal portfolio —
+a single-page site showcasing my background, internship experience,
+and selected projects. Built from scratch with vanilla HTML, CSS, and
+JavaScript, with no frameworks or build tools required.
+
+## ✨ Features
+
+- **Responsive layout** — works cleanly across desktop, tablet, and mobile
+- **3D draggable project carousel** — swipe, drag, click, or use arrow keys
+  to rotate through featured projects
+- **Interactive hero tilt card** — a CSS 3D card that tilts with cursor movement
+- **Scroll-reveal animations** — sections fade in as you scroll
+- **Zero dependencies** — no frameworks, no build step, just open and go
+
+## 🛠 Built With
+
+| Technology | Purpose |
+|---|---|
+| **HTML5** | Semantic page structure |
+| **CSS3** | Styling, custom properties, 3D transforms, animations |
+| **Vanilla JavaScript** | Carousel logic, tilt interaction, scroll reveal, nav toggle |
+| **Google Fonts** | Sora, Inter, IBM Plex Mono |
+
+## 📁 Project Structure
